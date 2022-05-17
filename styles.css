@@ -84,6 +84,9 @@ body{
     border-radius: 5px;
 }
 
+.task-item i:hover{
+    cursor: pointer;
+}
 /* UTILITIES */
 .error{
     border: 2px solid red !important;
@@ -91,4 +94,8 @@ body{
 
 .error::placeholder{
     color: red;
+}
+
+.completed{
+    text-decoration: line-through;
 }
